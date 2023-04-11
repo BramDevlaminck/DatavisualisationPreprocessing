@@ -1,0 +1,359 @@
+[
+    {
+        "lon": "3.724527569486078",
+        "lat": "51.0512833",
+        "name": "Aula",
+        "institute": "Ghent University",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.7245864",
+        "lat": "51.043965",
+        "name": "Boekentoren",
+        "institute": "Ghent University",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.707593522271173",
+        "lat": "51.053151799999995",
+        "name": "Coupure",
+        "institute": "Ghent University",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.7973533",
+        "lat": "50.9839305",
+        "name": "Gontrode",
+        "institute": "Ghent University",
+        "quarter": ""
+    },
+    {
+        "lon": "3.763654",
+        "lat": "51.0038277",
+        "name": "Heide",
+        "institute": "Ghent University",
+        "quarter": ""
+    },
+    {
+        "lon": "3.730233881999842",
+        "lat": "51.025427300000004",
+        "name": "Heymans",
+        "institute": "Ghent University",
+        "quarter": "Nieuw Gent - UZ"
+    },
+    {
+        "lon": "3.7042598523117114",
+        "lat": "51.049017199999994",
+        "name": "Dunant",
+        "institute": "Ghent University",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.730233881999842",
+        "lat": "51.025427300000004",
+        "name": "Heymans",
+        "institute": "Ghent University",
+        "quarter": "Nieuw Gent - UZ"
+    },
+    {
+        "lon": "3.7232481",
+        "lat": "51.0359404",
+        "name": "Ledeganck",
+        "institute": "Ghent University",
+        "quarter": "Stationsbuurt Noord"
+    },
+    {
+        "lon": "3.8110716",
+        "lat": "50.9844805",
+        "name": "Melle",
+        "institute": "Ghent University",
+        "quarter": ""
+    },
+    {
+        "lon": "3.7123152974101465",
+        "lat": "51.043763",
+        "name": "Mercator",
+        "institute": "Ghent University",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.7651510855552632",
+        "lat": "50.9984527",
+        "name": "Merelbeke",
+        "institute": "Ghent University",
+        "quarter": ""
+    },
+    {
+        "lon": "3.7391180967345266",
+        "lat": "51.02308045",
+        "name": "Proeftuin",
+        "institute": "Ghent University",
+        "quarter": "Nieuw Gent - UZ"
+    },
+    {
+        "lon": "3.718860793393268",
+        "lat": "51.045731",
+        "name": "Rommelaere",
+        "institute": "Ghent University",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.7096259",
+        "lat": "51.0268549",
+        "name": "Schoonmeersen",
+        "institute": "Ghent University",
+        "quarter": "Stationsbuurt Zuid"
+    },
+    {
+        "lon": "3.713539460060065",
+        "lat": "51.0250898",
+        "name": "Sterre",
+        "institute": "Ghent University",
+        "quarter": "Stationsbuurt Zuid"
+    },
+    {
+        "lon": "3.726882634903493",
+        "lat": "51.04281335",
+        "name": "Tweekerken",
+        "institute": "Ghent University",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.727388995733494",
+        "lat": "51.0466368",
+        "name": "Ufo",
+        "institute": "Ghent University",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.7266310296153846",
+        "lat": "51.02353555",
+        "name": "UZ Gent",
+        "institute": "Ghent University",
+        "quarter": "Nieuw Gent - UZ"
+    },
+    {
+        "lon": "3.7115085",
+        "lat": "51.0083783",
+        "name": "Ardoyen",
+        "institute": "Ghent University",
+        "quarter": "Zwijnaarde"
+    },
+    {
+        "lon": "3.7148533059078472",
+        "lat": "51.04518695",
+        "name": "Bijloke",
+        "institute": "HOGent",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.7266959",
+        "lat": "51.0541723",
+        "name": "Grote Sikkel",
+        "institute": "HOGent",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.7858036",
+        "lat": "51.0144669",
+        "name": "Melle",
+        "institute": "HOGent",
+        "quarter": ""
+    },
+    {
+        "lon": "3.7147053",
+        "lat": "51.041614",
+        "name": "Mercator",
+        "institute": "HOGent",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.7096259",
+        "lat": "51.0268549",
+        "name": "Schoonmeersen",
+        "institute": "HOGent",
+        "quarter": "Stationsbuurt Zuid"
+    },
+    {
+        "lon": "3.7261389",
+        "lat": "51.0200215",
+        "name": "Vesalius",
+        "institute": "HOGent",
+        "quarter": "Nieuw Gent - UZ"
+    },
+    {
+        "lon": "3.7611831624257026",
+        "lat": "50.96209355",
+        "name": "Bottelare",
+        "institute": "HOGent",
+        "quarter": ""
+    },
+    {
+        "lon": "3.7286016694149726",
+        "lat": "51.0523776",
+        "name": "Geraard de Duivelstraat",
+        "institute": "HOGent",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.6855566",
+        "lat": "51.0285441",
+        "name": "Buchtenstraat (FTI Lab)",
+        "institute": "HOGent",
+        "quarter": "Sint-Denijs-Westrem - Afsnee"
+    },
+    {
+        "lon": "3.7038287237313625",
+        "lat": "51.0344581",
+        "name": "Sporthal",
+        "institute": "HOGent",
+        "quarter": "Stationsbuurt Zuid"
+    },
+    {
+        "lon": "3.728503492571626",
+        "lat": "51.0409084",
+        "name": "Kantienberg",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.723413667276892",
+        "lat": "51.05553995",
+        "name": "Hoogpoort",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.727061782194915",
+        "lat": "51.06050449999999",
+        "name": "Goudstraat",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.738121911261941",
+        "lat": "51.0429327",
+        "name": "Brusselsepoortstraat",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.70236789803588",
+        "lat": "51.048629399999996",
+        "name": "Watersportbaan",
+        "institute": "Artevelde",
+        "quarter": "Watersportbaan - Ekkergem"
+    },
+    {
+        "lon": "3.729468",
+        "lat": "51.0382658",
+        "name": "Stropkaai",
+        "institute": "Artevelde",
+        "quarter": "Stationsbuurt Noord"
+    },
+    {
+        "lon": "3.7351203037945537",
+        "lat": "51.049946",
+        "name": "Sint-Annaplein",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.74776",
+        "lat": "51.0613375",
+        "name": "Sint-Amandsberg",
+        "institute": "Artevelde",
+        "quarter": "Sint-Amandsberg"
+    },
+    {
+        "lon": "3.6002326",
+        "lat": "50.8661472",
+        "name": "Oudenaarde",
+        "institute": "Artevelde",
+        "quarter": ""
+    },
+    {
+        "lon": "3.668927208816156",
+        "lat": "51.08734745",
+        "name": "Mariakerke",
+        "institute": "Artevelde",
+        "quarter": "Mariakerke"
+    },
+    {
+        "lon": "3.7323692798488275",
+        "lat": "51.04163425",
+        "name": "Leeuwstraat",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.724149873637854",
+        "lat": "51.04237495",
+        "name": "Kattenberg",
+        "institute": "Artevelde",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.7218606",
+        "lat": "51.0264709",
+        "name": "Zwijnaardsesteenweg",
+        "institute": "Artevelde",
+        "quarter": "Nieuw Gent - UZ"
+    },
+    {
+        "lon": "3.7129135707952106",
+        "lat": "51.0547718",
+        "name": "Sint-Lucas",
+        "institute": "KU Leuven",
+        "quarter": "Elisabethbegijnhof - Prinsenhof - Papegaai - Sint-Michiels"
+    },
+    {
+        "lon": "3.7086007441444435",
+        "lat": "51.060177949999996",
+        "name": "Technologiecampus",
+        "institute": "KU Leuven",
+        "quarter": "Rabot - Blaisantvest"
+    },
+    {
+        "lon": "3.7086007441444435",
+        "lat": "51.060177949999996",
+        "name": "Technologiecampus",
+        "institute": "Odisee",
+        "quarter": "Rabot - Blaisantvest"
+    },
+    {
+        "lon": "3.717479205780834",
+        "lat": "51.05161955",
+        "name": "Alexianenplein",
+        "institute": "LUCA School Of Arts",
+        "quarter": "Elisabethbegijnhof - Prinsenhof - Papegaai - Sint-Michiels"
+    },
+    {
+        "lon": "3.7129135707952106",
+        "lat": "51.0547718",
+        "name": "Hoogstraat",
+        "institute": "LUCA School Of Arts",
+        "quarter": "Elisabethbegijnhof - Prinsenhof - Papegaai - Sint-Michiels"
+    },
+    {
+        "lon": "3.717479205780834",
+        "lat": "51.05161955",
+        "name": "Alexianenplein",
+        "institute": "LUCA School Of Arts",
+        "quarter": "Elisabethbegijnhof - Prinsenhof - Papegaai - Sint-Michiels"
+    },
+    {
+        "lon": "3.7232212604229358",
+        "lat": "51.0527962",
+        "name": "Sint-Niklaasstraat",
+        "institute": "LUCA School Of Arts",
+        "quarter": "Binnenstad"
+    },
+    {
+        "lon": "3.6612043",
+        "lat": "51.0729018",
+        "name": "Campus Ter Beken",
+        "institute": "LUCA School Of Arts",
+        "quarter": "Mariakerke"
+    }
+]
