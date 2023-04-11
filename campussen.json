@@ -1,0 +1,422 @@
+{
+  "Ghent University": [
+    {
+      "name": "Aula",
+      "street": "Universiteitstraat",
+      "number": 4,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Boekentoren",
+      "street": "Blandijnberg",
+      "number": 2,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Coupure",
+      "street": "Coupure Links",
+      "number": 653,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Gontrode",
+      "street": "Geraardsbergsesteenweg",
+      "number": 267,
+      "city": "Melle",
+      "postalCode": 9090,
+      "country": "Belgium"
+    },
+    {
+      "name": "Heide",
+      "street": "Heidestraat",
+      "number": 21,
+      "city": "Merelbeke",
+      "postalCode": 9820,
+      "country": "Belgium"
+    },
+    {
+      "name": "Heymans",
+      "street": "Ottergemsesteenweg",
+      "number": 460,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Dunant",
+      "street": "Henri Dunantlaan",
+      "number": 2,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Heymans",
+      "street": "Ottergemsesteenweg",
+      "number": 460,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Ledeganck",
+      "street": "Karel Lodewijk Ledeganckstraat",
+      "number": 35,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Melle",
+      "street": "Proefhoevestraat",
+      "number": 18,
+      "city": "Melle",
+      "postalCode": 9090,
+      "country": "Belgium"
+    },
+    {
+      "name": "Mercator",
+      "street": "Abdisstraat",
+      "number": 1,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Merelbeke",
+      "street": "Salisburylaan",
+      "number": 133,
+      "city": "Merelbeke",
+      "postalCode": 9820,
+      "country": "Belgium"
+    },
+    {
+      "name": "Proeftuin",
+      "street": "Proeftuinstraat",
+      "number": 86,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Rommelaere",
+      "street": "Jozef Kluyskensstraat",
+      "number": 29,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Schoonmeersen",
+      "street": "Voskenslaan",
+      "number": 270,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Sterre",
+      "street": "Krijgslaan",
+      "number": 281,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Tweekerken",
+      "street": "Tweekerkenstraat",
+      "number": 2,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Ufo",
+      "street": "Sint-Pietersnieuwstraat",
+      "number": 33,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "UZ Gent",
+      "street": "Corneel Heymanslaan",
+      "number": 10,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Ardoyen",
+      "street": "Technologiepark-Zwijnaarde",
+      "number": 82,
+      "city": "Gent-Zwijnaarde",
+      "postalCode": 9085,
+      "country": "Belgium"
+    }
+  ],
+  "HOGent": [
+    {
+      "name": "Bijloke",
+      "street": "Louis Pasteurlaan",
+      "number": 2,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Grote Sikkel",
+      "street": "Hoogpoort",
+      "number": 64,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Melle",
+      "street": "Brusselsesteenweg",
+      "number": 161,
+      "city": "Melle",
+      "postalCode": 9090,
+      "country": "Belgium"
+    },
+    {
+      "name": "Mercator",
+      "street": "Henleykaai",
+      "number": 64,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Schoonmeersen",
+      "street": "Voskenslaan",
+      "number": 270,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Vesalius",
+      "street": "Keramiekstraat",
+      "number": 80,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Bottelare",
+      "street": "Diepestraat",
+      "number": 1,
+      "city": "Bottelare",
+      "postalCode": 9520,
+      "country": "Belgium"
+    },
+    {
+      "name": "Geraard de Duivelstraat",
+      "street": "Geraard de Duivelstraat",
+      "number": 5,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Buchtenstraat (FTI Lab)",
+      "street": "Buchtenstraat",
+      "number": 11,
+      "city": "Ghent",
+      "postalCode": 9051,
+      "country": "Belgium"
+    },
+    {
+      "name": "Sporthal",
+      "street": "Sint-Denijslaan",
+      "number": 251,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    }
+  ],
+  "Artevelde": [
+    {
+      "name": "Kantienberg",
+      "street": "Voetweg",
+      "number": 66,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Hoogpoort",
+      "street": "Hoogpoort",
+      "number": 15,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Goudstraat",
+      "street": "Goudstraat",
+      "number": 37,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Brusselsepoortstraat",
+      "street": "Brusselsepoortstraat",
+      "number": 93,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Watersportbaan",
+      "street": "Watersportlaan",
+      "number": 4,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Stropkaai",
+      "street": "Stropkaai",
+      "number": 14,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Sint-Annaplein",
+      "street": "Sint-Annaplein",
+      "number": 31,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Sint-Amandsberg",
+      "street": "J. Gérardstraat",
+      "number": 18,
+      "city": "Ghent",
+      "postalCode": 9040,
+      "country": "Belgium"
+    },
+    {
+      "name": "Oudenaarde",
+      "street": "Industriepark de Bruwaan",
+      "number": 1,
+      "city": "Oudenaarde",
+      "postalCode": 9700,
+      "country": "Belgium"
+    },
+    {
+      "name": "Mariakerke",
+      "street": "Industrieweg",
+      "number": 232,
+      "city": "Mariakerke",
+      "postalCode": 9030,
+      "country": "Belgium"
+    },
+    {
+      "name": "Leeuwstraat",
+      "street": "Leeuwstraat",
+      "number": 1,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Kattenberg",
+      "street": "Kattenberg",
+      "number": 9,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Zwijnaardsesteenweg",
+      "street": "Zwijnaardsesteenweg",
+      "number": 312,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    }
+  ],
+  "KU Leuven": [
+    {
+      "name": "Sint-Lucas",
+      "street": "Hoogstraat",
+      "number": 51,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Technologiecampus",
+      "street": "Gebroeders de Smetstraat",
+      "number": 1,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    }
+  ],
+  "Odisee": [
+    {
+      "name": "Technologiecampus",
+      "street": "Gebroeders de Smetstraat",
+      "number": 1,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    }
+  ],
+  "LUCA School Of Arts": [
+    {
+      "name": "Alexianenplein",
+      "street": "Alexianenplein",
+      "number": 1,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Hoogstraat",
+      "street": "Hoogstraat",
+      "number": 51,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Alexianenplein",
+      "street": "Alexianenplein",
+      "number": 1,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Sint-Niklaasstraat",
+      "street": "Sint-Niklaasstraat",
+      "number": 27,
+      "city": "Ghent",
+      "postalCode": 9000,
+      "country": "Belgium"
+    },
+    {
+      "name": "Campus Ter Beken",
+      "street": "Beekstraat",
+      "number": 1,
+      "city": "Mariakerke",
+      "postalCode": 9030,
+      "country": "Belgium"
+    }
+  ]
+}
