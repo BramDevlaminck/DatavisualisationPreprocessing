@@ -32,16 +32,16 @@ class Campus:
 
 @dataclass
 class CampusPoint:
-    lon: str
     lat: str
+    lon: str
     name: str = ""
     institute: str = ""
     quarter: str = ""
 
     def to_dict(self) -> dict[str, str]:
         return {
-            "lon": self.lon,
             "lat": self.lat,
+            "lon": self.lon,
             "name": self.name,
             "institute": self.institute,
             "quarter": self.quarter
@@ -52,12 +52,12 @@ def address_to_location(address: Campus, quarters: dict[str, Polygon]) -> Campus
     response = requests.get("https://geocode.maps.co/search", params=address.to_request_params())
     if response.ok:
         res = response.json()[0]
-        lon, lat = res["lon"], res["lat"]
-        point = Feature(geometry=Point((float(lon), float(lat))))
+        lat, lon = res["lat"], res["lon"]
+        point = Feature(geometry=Point((float(lat), float(lon))))
 
         campus_point = CampusPoint(
-            lon=lon,
             lat=lat,
+            lon=lon,
             name=address.name,
             institute=address.institute,
         )

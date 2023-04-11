@@ -21,7 +21,9 @@ def extract_quarters(filename: str) -> dict[str, list[list[tuple[float, float]]]
         if quarter not in quarter_to_geo_list.keys():
             if quarter != "Onbekend":
                 geom = item["geometry"]["geometry"]["coordinates"][0]
-                quarter_to_geo_list[quarter] = [[(float(loc[0]), float(loc[1])) for loc in geom]]
+                # create list of tuples instead of list of list (needed later) and flip lat and lon the right way around
+                # This is in another other order in the dataset for some reason
+                quarter_to_geo_list[quarter] = [[(float(loc[1]), float(loc[0])) for loc in geom]]
 
     return quarter_to_geo_list
 
@@ -33,7 +35,7 @@ def extract_bike_sheds(filename: str) -> dict[tuple[float, float], int]:
     bike_shed_with_size: dict[tuple[float, float], int] = dict()
     for item in data:
         geo_point = item["geo_point_2d"]
-        point: tuple[float, float] = float(geo_point["lon"]), float(geo_point["lat"])
+        point: tuple[float, float] = float(geo_point["lat"]), float(geo_point["lon"])
         size: int = item["capaciteit"]
         bike_shed_with_size[point] = size
 
