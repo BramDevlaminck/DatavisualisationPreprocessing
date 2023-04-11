@@ -63,4 +63,8 @@ if __name__ == "__main__":
     quarter_data = extract_quarters("Datasets/criminaliteitscijfers-per-wijk-per-maand-gent-2022.json")
     # download dataset as JSON from here: https://data.stad.gent/explore/dataset/fietsenstallingen-gent/export/
     bike_data = extract_bike_sheds("Datasets/fietsenstallingen-gent.json")
-    print(calculate_places_per_quarter(quarter_data, bike_data))
+    res = calculate_places_per_quarter(quarter_data, bike_data)
+
+    # write the output to a json file in the out folder
+    out_file = open("out/quarter_with_sizes.json", "w")
+    json.dump(res, out_file, indent=4)

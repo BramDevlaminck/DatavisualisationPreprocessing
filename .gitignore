@@ -138,3 +138,4 @@ cython_debug/
 
 # don't include the datasets on git
 /Datasets/*.json
+/out/*.json
