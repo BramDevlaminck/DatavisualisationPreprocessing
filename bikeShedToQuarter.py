@@ -59,6 +59,8 @@ def calculate_places_per_quarter(quarter_data: dict[str, list[list[tuple[float, 
 
 
 if __name__ == "__main__":
+    # download datasets as JSON from here: https://data.stad.gent/explore/?disjunctive.keyword&disjunctive.theme&sort=modified&q=politie
     quarter_data = extract_quarters("Dataset/criminaliteitscijfers-per-wijk-per-maand-gent-2022.json")
+    # download dataset as JSON from here: https://data.stad.gent/explore/dataset/fietsenstallingen-gent/export/
     bike_data = extract_bike_sheds("Dataset/fietsenstallingen-gent.json")
     print(calculate_places_per_quarter(quarter_data, bike_data))
