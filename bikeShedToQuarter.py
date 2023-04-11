@@ -40,14 +40,19 @@ def extract_bike_sheds(filename: str) -> dict[tuple[float, float], int]:
     return bike_shed_with_size
 
 
-def calculate_places_per_quarter(quarter_data: dict[str, list[list[tuple[float, float]]]], bike_shed_data: dict[tuple[float, float], int]):
-    """Return a dict with as key the quarter and as value the numer of bike places in that quarter"""
+def get_quarter_polygons(quarter_data: dict[str, list[list[tuple[float, float]]]]) -> dict[str, Polygon]:
     polygon_per_quarter: dict[str, Polygon] = dict()
 
     for quarter, coordinates in quarter_data.items():
         # the type hint in polygon itself is wrong, the right type is list[list[tuple[float, float]]]
         polygon_per_quarter[quarter] = Polygon(coordinates)
 
+    return polygon_per_quarter
+
+
+def calculate_places_per_quarter(quarter_data: dict[str, list[list[tuple[float, float]]]], bike_shed_data: dict[tuple[float, float], int]):
+    """Return a dict with as key the quarter and as value the numer of bike places in that quarter"""
+    polygon_per_quarter = get_quarter_polygons(quarter_data)
     bike_places_per_quarter: dict[str, int] = {quarter: 0 for quarter in polygon_per_quarter.keys()}
     for coord, size in bike_shed_data.items():
         point = Feature(geometry=Point(coord))
