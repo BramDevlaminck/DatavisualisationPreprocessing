@@ -95,7 +95,7 @@ def campussen_json_to_objects(filename: str) -> list[Campus]:
 
 
 if __name__ == "__main__":
-    campussen_as_json = campussen_json_to_objects("campussen.json")
+    campussen_as_json = campussen_json_to_objects("Datasets/campussen.json")
 
     geo_points: list[CampusPoint] = []
     quarters = get_quarter_polygons(extract_quarters("Datasets/criminaliteitscijfers-per-wijk-per-maand-gent-2022.json"))
