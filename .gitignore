@@ -137,4 +137,4 @@ cython_debug/
 .idea/
 
 # don't include the datasets on git
-/Dataset/
+/Datasets/*.json
