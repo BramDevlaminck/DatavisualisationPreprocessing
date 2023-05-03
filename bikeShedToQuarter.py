@@ -73,5 +73,5 @@ if __name__ == "__main__":
     res = calculate_places_per_quarter(quarter_data, bike_data)
 
     # write the output to a json file in the out folder
-    out_file = open("out/quarter_with_sizes.json", "w")
+    out_file = open("out/bike_parkings_per_quarter.json", "w")
     json.dump(res, out_file, indent=4)

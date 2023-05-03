@@ -141,5 +141,6 @@ cython_debug/
 /out/*.json
 
 # do include the output of campusses, we don't want to do all the api requests every time
-!/Datasets/campussen.json
+!/Datasets/campuses.json
 !/out/geo_point_per_campus.json
+!/out/bike_parkings_per_quarter.json
