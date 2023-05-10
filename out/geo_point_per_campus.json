@@ -60,7 +60,7 @@
         "lon": "3.7232481",
         "name": "Ledeganck",
         "institute": "Ghent University",
-        "quarter": "Stationsbuurt Noord"
+        "quarter": "Stationsbuurt-Noord"
     },
     {
         "lat": "50.9844805",
@@ -102,14 +102,14 @@
         "lon": "3.7096259",
         "name": "Schoonmeersen",
         "institute": "Ghent University",
-        "quarter": "Stationsbuurt Zuid"
+        "quarter": "Stationsbuurt-Zuid"
     },
     {
         "lat": "51.0250898",
         "lon": "3.713539460060065",
         "name": "Sterre",
         "institute": "Ghent University",
-        "quarter": "Stationsbuurt Zuid"
+        "quarter": "Stationsbuurt-Zuid"
     },
     {
         "lat": "51.04281335",
@@ -172,7 +172,7 @@
         "lon": "3.7096259",
         "name": "Schoonmeersen",
         "institute": "HOGent",
-        "quarter": "Stationsbuurt Zuid"
+        "quarter": "Stationsbuurt-Zuid"
     },
     {
         "lat": "51.0200215",
@@ -207,7 +207,7 @@
         "lon": "3.7038287237313625",
         "name": "Sporthal",
         "institute": "HOGent",
-        "quarter": "Stationsbuurt Zuid"
+        "quarter": "Stationsbuurt-Zuid"
     },
     {
         "lat": "51.0409084",
@@ -249,7 +249,7 @@
         "lon": "3.729468",
         "name": "Stropkaai",
         "institute": "Artevelde",
-        "quarter": "Stationsbuurt Noord"
+        "quarter": "Stationsbuurt-Noord"
     },
     {
         "lat": "51.049946",

@@ -1,6 +1,7 @@
 import json
 import sys
 from dataclasses import dataclass
+import time
 import requests
 from geojson import Polygon, Point, Feature
 from turfpy.measurement import boolean_point_in_polygon
@@ -98,11 +99,12 @@ if __name__ == "__main__":
     campussen_as_json = campussen_json_to_objects("Datasets/campuses.json")
 
     geo_points: list[CampusPoint] = []
-    quarters = get_quarter_polygons(extract_quarters("Datasets/criminaliteitscijfers-per-wijk-per-maand-gent-2022.json"))
+    quarters = get_quarter_polygons(extract_quarters("Datasets/quarter_shapes.geojson"))
     for campus in campussen_as_json:
         res = address_to_location(campus, quarters)
         if res is not None:
             geo_points.append(res)
+        time.sleep(0.5)  # use sleep to prevent spamming the api and getting a timeout
 
     out_file = open("out/geo_point_per_campus.json", "w")
     json.dump([campus_point.to_dict() for campus_point in geo_points], out_file, indent=4)

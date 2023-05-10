@@ -13,14 +13,14 @@ def open_json(filename: str) -> TextIO:
 
 def extract_quarters(filename: str) -> dict[str, list[list[tuple[float, float]]]]:
     """Return a dict with as key the quarter and as value the polygon coordinate shape of that quarter"""
-    data = open_json(filename)
+    data = open_json(filename)["features"]
 
     quarter_to_geo_list: dict[str, list[list[tuple[float, float]]]] = dict()
     for item in data:
-        quarter = item["quarter"]
+        quarter = item["properties"]["wijk"]
         if quarter not in quarter_to_geo_list.keys():
             if quarter != "Onbekend":
-                geom = item["geometry"]["geometry"]["coordinates"][0]
+                geom = item["geometry"]["coordinates"][0]
                 # create list of tuples instead of list of list (needed later) and flip lat and lon the right way around
                 # This is in another other order in the dataset for some reason
                 quarter_to_geo_list[quarter] = [[(float(loc[1]), float(loc[0])) for loc in geom]]
@@ -66,10 +66,8 @@ def calculate_places_per_quarter(quarter_data: dict[str, list[list[tuple[float, 
 
 
 if __name__ == "__main__":
-    # download datasets as JSON from here: https://data.stad.gent/explore/?disjunctive.keyword&disjunctive.theme&sort=modified&q=politie
-    quarter_data = extract_quarters("Datasets/criminaliteitscijfers-per-wijk-per-maand-gent-2022.json")
-    # download dataset as JSON from here: https://data.stad.gent/explore/dataset/fietsenstallingen-gent/export/
-    bike_data = extract_bike_sheds("Datasets/fietsenstallingen-gent.json")
+    quarter_data = extract_quarters("Datasets/quarter_shapes.geojson")
+    bike_data = extract_bike_sheds("Datasets/bike_parkings_data.json")
     res = calculate_places_per_quarter(quarter_data, bike_data)
 
     # write the output to a json file in the out folder
