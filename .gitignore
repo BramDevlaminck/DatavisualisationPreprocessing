@@ -137,10 +137,7 @@ cython_debug/
 .idea/
 
 # don't include the datasets on git
-/Datasets/*.json
-/out/*.json
+/Datasets/
 
 # do include the output of campusses, we don't want to do all the api requests every time
 !/Datasets/campuses.json
-!/out/geo_point_per_campus.json
-!/out/bike_parkings_per_quarter.json

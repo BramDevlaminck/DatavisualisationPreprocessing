@@ -11,8 +11,11 @@ The results of the 2 scripts can be found back in the `/out` directory.
 ## How to run?
 ### Required data
 We expect 2 datasets to be present in the `/Datasets` folder.  
-These can be downloaded from [here](https://data.stad.gent/explore/?disjunctive.keyword&disjunctive.theme&sort=modified&q=politie) (Choose 1 of the listed datasets as json) and [here](https://data.stad.gent/explore/dataset/fietsenstallingen-gent/export/) (once again as a json).  
-Once you downloaded these datasets, you can change the appropriate path to the datasets in `addressToGeoPoint.py`and `bikeShedToQuarter.py`.
+These can be downloaded by running 
+```bash
+./fetch_datasets.sh
+```
+in the root of this project.
 
 ### Setting up the environment
 This project was set up using [poetry](https://python-poetry.org/).  
